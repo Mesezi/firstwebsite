@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+      color: rgb(0, 0, 0);
+      font-family: 'Poppins', sans-serif;
+      background-color: rgb(233, 233, 233);
+      
+  }
+  
+ nav{
+      background-color: rgb(37, 36, 36);
+      box-shadow: 2px 2px 2px 2px rgb(165, 165, 165);
+  }
+
+  #navbarSupportedContent{
+    position: relative;
+    
+}
+ul{
+    position: absolute;
+    right: 0px;
+}
+  
+  
+  li > a{
+      font-size: 15px;
+      color: white;
+  }
+
+  .dropdown-item{
+      color: white;
+      
+  }
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: white;
+    background-color: dimgray;
+    transform: scale(1.02);
+    transition: 0.7s;
+  }
+  
+  #player{
+      padding-top:20px;
+      
+  }
+  #player img, iframe, video{
+      
+      width: 80%;
+      height: 300px;  
+      border-radius: 0 10px 0 10px;
+      
+  }
+  
+  
+  #movies{
+      width: 40%;
+      background-image: url(../movies/pic/movie.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 200px;
+      border-radius: 30px;
+      padding:10px;
+  }
+#shows{
+    width: 40%;
+    padding:10px;
+    background-image: url(../Series/pic/rick-and-morty-web.jpg);
+      background-size: cover;
+      background-position: center;
+      background-position: 2;
+      height: 200px;
+      border-radius: 30px;
+}
+#movies > h3{
+    color:white;
+    
+}
+#shows > h3{
+    color:white;
+}
+#ms
+{
+    height: 500px;
+}
+.msc{
+    margin-top: 55px;
+    
+}
+
+a:hover{
+    color: white;
+}
+#movies:hover, #shows:hover{
+    
+    transform: scale(1.1);
+    transition: 0.7s;
+    opacity:90%;
+}
+#movshow{
+    margin-top: 70px;
+}
+ 
+ 
+#topic h4{
+      
+      text-align: center;
+      
+  }
+  .img:hover{
+    opacity:96%;
+  }
+  .img h4{
+    width: 40%;
+    color: black;
+    font-size: 39px;
+}
+  #info > p{
+      color: black;
+      font-size: 17px;
+      
+      text-align: justify;
+  }
+  #topic > p{
+    color: black;
+    font-size: 17px;
+    
+    text-align: center;
+}
+  .info{
+   
+   width: 70%;
+   padding-top: 15px;
+
+  }
+  .info > p{
+    padding-top: 10px;
+  }
+  .img{
+      width: 100%;
+  }
+  
+.info > span{
+       font-size: 34px;
+       color:firebrick;
+       line-height: 32px;
+       
+      }
+
+
+.next{
+    position: relative;
+    margin-top: 30px;
+}
+#left{
+    float: left;
+    color: firebrick;
+    font-size: 40px;
+}
+#right{
+    float: right;
+    color: firebrick;
+    font-size: 40px;
+}
+#right:hover, #left:hover{
+    color: dimgray;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+span {
+    color: black;
+    font-size: 30px;
+    
+}
+.message{
+    margin-top: 70px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: firebrick;
+}
+
+#con{
+    margin-top: 30px;
+}
+#no{
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.center{
+    margin-top: 20px;
+}
+#topic{
+    padding-top: 20px;
+}
+.navbar-toggler-icon{
+    width: 20px;
+    height: 30px;
+}
+#topic > h4{
+    color: firebrick;
+    font-size: 29px;
+}
+
+
+
+footer{
+    height:33px;
+    background-color: rgb(24, 24, 24);
+}
+footer p{
+    color:#ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:10px) and (max-width:294px){
+    ul{
+        position:relative
+    }
+    #player img, iframe, video{
+
+        width: 100%;
+        height: 60px;
+    }
+    .img{
+        width:100%
+    }
+   
+    span, h4{
+        color: firebrick;
+        font-size: 20px;
+    }
+    
+    #left{
+        
+        font-size: 30px;
+    }
+    #right{
+       
+        font-size: 30px;
+    }
+    .info{
+        
+        width: 100%;
+        
+        
+       }
+       
+       .info > p{
+     font-size: 9px;
+     text-align: justify;
+       }
+       #topic > p{
+        
+        font-size: 9px;
+        
+        text-align: center;
+    }
+       .info > span {
+        font-size: 11px;
+       }
+}  
+
+  /* small screen */
+  
+@media (min-width:295px) and (max-width:425px){
+    ul{
+        position:relative
+    }
+    #player img, iframe, video{
+
+        width: 80%;
+        height: 225px;
+    }
+    .img{
+        width:100%
+    }
+   
+    span, h4{
+        color: firebrick;
+        font-size: 20px;
+    }
+    
+    #left{
+        
+        font-size: 30px;
+    }
+    #right{
+       
+        font-size: 30px;
+    }
+    .info{
+        
+        width: 90%;  
+       }
+       .info > p{
+        font-size: 14px;
+        text-align: justify;
+          }
+          #topic > p{
+        
+            font-size: 14px;
+            
+            text-align: center;
+        }
+          .info > span {
+           font-size: 22px;
+          }
+        }
+
+@media (min-width:426px) and (max-width:767px){
+    ul{
+        position: relative;
+    }
+    #player img, iframe, video{
+        width: 80%;
+        height: 250px;   
+    }
+    .img{
+        width:100%
+    }
+    #left{
+        
+        font-size: 33px;
+    }
+    #right{
+       
+        font-size: 33px;
+    }
+    .info{
+        
+        width: 90%;
+       
+        
+       }
+       
+       .info > p{
+     font-size: 14px;
+     text-align: justify;
+       }
+       #topic > p{
+        
+        font-size: 14px;
+        
+        text-align: center;
+    }
+       .info > span {
+        font-size: 26px;
+       }
+       
+    }
+    @media (min-width:768px) and (max-width:991px){
+        ul{
+            position: relative;
+        }   
+        #player img, iframe, video{
+            width: 90%;
+            height: 220px;   
+        }
+        .img{
+            width:100%
+        }
+        .info{
+            
+            width: 80%;
+           }
+       
+        #left{
+            
+            font-size: 33px;
+        }
+        #right{
+           
+            font-size: 33px;
+        }
+       
+           
+           .info > p, #topic > p{
+         font-size: 16px;
+           }
+           .info > span {
+            font-size: 32px;
+           }
+    
+    }
+
+
+

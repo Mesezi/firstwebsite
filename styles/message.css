@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    padding-right: 0px;
+}
+body 
+{ 
+    height: 100%;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    background-image: url(../pics/Wallmax-4331.jpg);
+      background-color: rgb(70, 69, 69);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container-fluid{
+padding-left: 0px;
+padding-right: 0px;
+height: 600px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form {
+border-radius: 20px;
+width: 350px;
+height: 450px;
+padding: 20px;
+}
+label, input{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+label{
+    
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+    border-radius: 2px;
+    color: firebrick;
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+}
+
+input{
+    position: relative;
+    height:  40px;
+    margin-bottom: 10px;
+    border: none;
+    width: 270px;
+    border-radius: 10px;
+    
+}
+form > button{
+    width: 100px;
+    border-style: none;
+    background-color:rgb(255, 255, 255); 
+    color: black;
+    
+}
+form > button:hover{
+    transform: scale(1.1);
+    transition: .5s; 
+}
+
+form > button > a{
+    text-decoration: none;
+    color: black;
+}
+form > button > a:active{
+    text-decoration: none;
+    color: rgb(119, 82, 82) 
+}
+
+button > a > p{
+    color: white;
+}
+button:hover{
+    background-color:firebrick;
+    transition: 0.7s;
+}
+.next > a{
+    text-decoration: none;
+    float: right;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+}
+.next > a:hover{
+    
+    color: firebrick;
+   
+}
