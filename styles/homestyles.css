@@ -85,7 +85,7 @@ li {
   
   #first > #aboutcon > #about > h3{
       color: firebrick ;
-      font-size: 28px;
+      font-size: 23px;
   }
   #about{
       padding-top: 10px;
@@ -323,7 +323,7 @@ footer p{
     #head{
         height: 300px;
         background-size: cover;
-        margin-bottom: 230px;
+        margin-bottom: 136px;
     }
     #head > div{
         width: 80%;
@@ -358,10 +358,10 @@ footer p{
      }
  h1{
      padding: 10px;
- font-size: 16px;
+ font-size: 24px;
      }
   h3{
-     font-size: 18px;
+     font-size: 20px;
  }
  
  #first p{
@@ -514,16 +514,16 @@ width:100%;
     }
 h1{
     padding: 10px;
-font-size: 21px;
+font-size: 26px;
     }
  h3{
-    font-size: 18px;
+    font-size: 20px;
 }
 #head > div{
     width: 80%;
 }
 #first{
-    margin-top: 150px;
+    margin-top: 70px;
 }
 #first img {
     width: 150px;
